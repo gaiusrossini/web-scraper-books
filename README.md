@@ -1,18 +1,32 @@
-# web-scraper-books
-Projeto de estudo: Web scraper para extrair livros e preços de um site com Python.
+# web-scraper-books 
 
-# Web Scraper de Livros 📚
+A simple Python project for practicing web scraping techniques.
 
-Projeto feito com Python para treinar scraping de dados.
+This script accesses the website [Books to Scrape](https://books.toscrape.com) and extracts:
+- Book titles
+- Prices
+- Saves everything into a CSV file
 
-Este script acessa o site [Books to Scrape](https://books.toscrape.com) e extrai:
-- Títulos dos livros
-- Preços
-- Salva tudo em um arquivo CSV
-
-### Tecnologias usadas:
+# Technologies used:
 - Python
 - requests
 - BeautifulSoup
 - CSV
-- 
+
+# How to run
+Make sure you have Python 3 installed.
+
+1. Clone the repository:
+git clone https://github.com/gaiusrossini/web-scraper-books.git
+cd web-scraper-books
+   
+2. Install dependencies:
+pip install -r requirements.txt
+
+3. Run the script:
+python scraper.py
+
+The output will be saved as books.csv.
+
+License:
+This project is for educational purposes only.
